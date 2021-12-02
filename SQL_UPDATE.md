@@ -1,22 +1,22 @@
-SQL UPDATE 语句
+# SQL UPDATE 语句
 UPDATE 语句用于更新表中的记录。
 
-SQL UPDATE 语句
+## SQL UPDATE 语句
 UPDATE 语句用于更新表中已存在的记录。
 
 SQL UPDATE 语法
-UPDATE table_name
-SET column1=value1,column2=value2,...
-WHERE some_column=some_value;
+> UPDATE table_name
+> SET column1=value1,column2=value2,...
+> WHERE some_column=some_value;
 
-lamp	请注意 SQL UPDATE 语句中的 WHERE 子句！
-WHERE 子句规定哪条记录或者哪些记录需要更新。如果您省略了 WHERE 子句，所有的记录都将被更新！
+> 🚯	请注意 SQL UPDATE 语句中的 WHERE 子句！
+> WHERE 子句规定哪条记录或者哪些记录需要更新。如果您省略了 WHERE 子句，所有的记录都将被更新！
 
-演示数据库
+## 演示数据库
 在本教程中，我们将使用 RUNOOB 样本数据库。
 
 下面是选自 "Websites" 表的数据：
-
+```
 +----+--------------+---------------------------+-------+---------+
 | id | name         | url                       | alexa | country |
 +----+--------------+---------------------------+-------+---------+
@@ -26,15 +26,26 @@ WHERE 子句规定哪条记录或者哪些记录需要更新。如果您省略�
 | 4  | 微博          | http://weibo.com/         | 20    | CN      |
 | 5  | Facebook     | https://www.facebook.com/ | 3     | USA     |
 +----+--------------+---------------------------+-------+---------+
-SQL UPDATE 实例
+```
+
+## SQL UPDATE 实例
 假设我们要把 "菜鸟教程" 的 alexa 排名更新为 5000，country 改为 USA。
 
 我们使用下面的 SQL 语句：
 
 实例
-UPDATE Websites 
-SET alexa='5000', country='USA' 
-WHERE name='菜鸟教程';
+> UPDATE Websites 
+> SET alexa='5000', country='USA' 
+> WHERE name='菜鸟教程';
 执行以上 SQL，再读取 "Websites" 表，数据如下所示：
 
+![image](https://user-images.githubusercontent.com/18340126/144433542-a787d6d0-1134-4bbf-8c8a-4d874a19626d.png)
 
+## Update 警告！
+在更新记录时要格外小心！在上面的实例中，如果我们省略了 WHERE 子句，如下所示：
+
+> UPDATE Websites
+> SET alexa='5000', country='USA'
+执行以上代码会将 Websites 表中所有数据的 alexa 改为 5000，country 改为 USA。
+
+执行没有 WHERE 子句的 UPDATE 要慎重，再慎重。
