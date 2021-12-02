@@ -1,21 +1,19 @@
-SQL ORDER BY 关键字
+# SQL ORDER BY 关键字
 ORDER BY 关键字用于对结果集进行排序。
 
-SQL ORDER BY 关键字
+## SQL ORDER BY 关键字
 ORDER BY 关键字用于对结果集按照一个列或者多个列进行排序。
-
 ORDER BY 关键字默认按照升序对记录进行排序。如果需要按照降序对记录进行排序，您可以使用 DESC 关键字。
 
 SQL ORDER BY 语法
-SELECT column_name,column_name
-FROM table_name
-ORDER BY column_name,column_name ASC|DESC;
+> SELECT column_name,column_name
+> FROM table_name
+> ORDER BY column_name,column_name ASC|DESC;
 
-演示数据库
+## 演示数据库
 在本教程中，我们将使用 RUNOOB 样本数据库。
-
 下面是选自 "Websites" 表的数据：
-
+```
 +----+--------------+---------------------------+-------+---------+
 | id | name         | url                       | alexa | country |
 +----+--------------+---------------------------+-------+---------+
@@ -25,31 +23,34 @@ ORDER BY column_name,column_name ASC|DESC;
 | 4  | 微博          | http://weibo.com/         | 20    | CN      |
 | 5  | Facebook     | https://www.facebook.com/ | 3     | USA     |
 +----+--------------+---------------------------+-------+---------+
-ORDER BY 实例
+```
+
+## ORDER BY 实例
 下面的 SQL 语句从 "Websites" 表中选取所有网站，并按照 "alexa" 列排序：
 
 实例
-SELECT * FROM Websites
-ORDER BY alexa;
+> SELECT * FROM Websites
+> ORDER BY alexa;
 执行输出结果：
+![image](https://user-images.githubusercontent.com/18340126/144432283-722de6f1-c492-4a86-8da0-bfb91d21f935.png)
 
 
-
-ORDER BY DESC 实例
+## ORDER BY DESC 实例
 下面的 SQL 语句从 "Websites" 表中选取所有网站，并按照 "alexa" 列降序排序：
 
 实例
-SELECT * FROM Websites
-ORDER BY alexa DESC;
+> SELECT * FROM Websites
+> ORDER BY alexa DESC;
 执行输出结果：
+![image](https://user-images.githubusercontent.com/18340126/144432375-84a49045-fb7b-4345-95a6-957f2adf3d8d.png)
 
 
-
-ORDER BY 多列
+## ORDER BY 多列
 下面的 SQL 语句从 "Websites" 表中选取所有网站，并按照 "country" 和 "alexa" 列排序：
 
 实例
-SELECT * FROM Websites
-ORDER BY country,alexa;
+> SELECT * FROM Websites
+> ORDER BY country,alexa;
 执行输出结果：
 
+![image](https://user-images.githubusercontent.com/18340126/144432443-680d102e-ab34-4ca9-a2d1-e5b0ca20ba3f.png)
