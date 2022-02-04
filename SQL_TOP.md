@@ -47,6 +47,7 @@ TOP 子句用于规定要返回的记录的数目。
 
 > SELECT TOP 2 * FROM Persons
 RESULT
+
 | Id  | 	LastName	|  FirstName | 	Address	|  City   | 
 | :-----    | :-----------: |:-----------: |:-----------: |-----------: |
 | 1 |  Adams | John | Oxford Street | London |
