@@ -19,4 +19,4 @@ DataBase SQL simple Grammar
 
 > [SQL_UPDATE](https://github.com/jambestwick/SQL_Grammar/blob/main/SQL_UPDATE.md)
 
-> [SQL_DELETE](https://github.com/jambestwick/SQL_Grammar/blob/main/SQL_DELETE.md)
+> [SQL_DELETE](https://github.com/jambestwick/SQL_Grammar/blob/main/basic/SQL_DELETE.md)
