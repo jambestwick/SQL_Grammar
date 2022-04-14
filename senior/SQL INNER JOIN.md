@@ -66,4 +66,5 @@ mysql> SELECT * FROM access_log;
 执行以上 SQL 输出结果如下：
 
 ![image](https://user-images.githubusercontent.com/18340126/163330676-93dd229d-1cb7-4b4a-8b0b-9fa036912868.png)
+
 **注释**：INNER JOIN 关键字在表中存在至少一个匹配时返回行。如果 "Websites" 表中的行在 "access_log" 中没有匹配，则不会列出这些行。
