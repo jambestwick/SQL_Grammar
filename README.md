@@ -1,9 +1,9 @@
 # SQL_教程 Markdowm
-DataBase SQL simple Grammar 
+## DataBase SQL simple Grammar 
 
-> [SQL Intro](https://github.com/jambestwick/SQL_Grammar/blob/main/Introduction.md)
+> [SQL Intro](https://github.com/jambestwick/SQL_Grammar/blob/main/basic/Introduction.md)
 
-> [SQL Grammar](https://github.com/jambestwick/SQL_Grammar/blob/main/grammar.md)
+> [SQL Grammar](https://github.com/jambestwick/SQL_Grammar/blob/main/basic/grammar.md)
 
 > [SQL SELECT](https://github.com/jambestwick/SQL_Grammar/blob/main/basic/SQL_SELECT.md)
 
@@ -20,3 +20,6 @@ DataBase SQL simple Grammar
 > [SQL_UPDATE](https://github.com/jambestwick/SQL_Grammar/blob/main/basic/SQL_UPDATE.md)
 
 > [SQL_DELETE](https://github.com/jambestwick/SQL_Grammar/blob/main/basic/SQL_DELETE.md)
+
+## Sensior
+
