@@ -33,7 +33,7 @@ FROM table1;
 💡	
 **提示**：新表将会使用 SELECT 语句中定义的列名称和类型进行创建。您可以使用 AS 子句来应用新名称。
 
-
+💡
 ## SQL SELECT INTO 实例
 创建 Websites 的备份复件：
 ```
