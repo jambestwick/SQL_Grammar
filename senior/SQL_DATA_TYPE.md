@@ -56,15 +56,8 @@ Integer|
 Real	|Number	|Float	|Numeric|
 |currency	|Currency	|Money	|N/A	|N/A	|Money|
 |string (fixed)	|N/A	|Char	|Char	|Char	|Char|
-|string (variable)	|Text (<256)
-Memo (65k+)|	Varchar	|Varchar
-Varchar2|	Varchar|	Varchar|
-|binary object	|OLE Object Memo	|Binary (fixed up to 8K)
-Varbinary (<8K)
-Image (<2GB) |	Long
-Raw|	Blob
-Text|	Binary
-Varbinary|
+|string (variable)	|Text (<256) Memo (65k+)|	Varchar	|Varchar Varchar2|	Varchar|	Varchar|
+|binary object	|OLE Object Memo	|Binary (fixed up to 8K) Varbinary (<8K) Image (<2GB) |	Long Raw|	Blob Text|	Binary Varbinary|
 
 :lamp	
 注释：在不同的数据库中，同一种数据类型可能有不同的名称。即使名称相同，尺寸和其他细节也可能不同！ 请总是检查文档！
