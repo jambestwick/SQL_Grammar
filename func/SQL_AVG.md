@@ -38,7 +38,7 @@ SELECT AVG(count) AS CountAverage FROM access_log;
 ![avg1](https://user-images.githubusercontent.com/18340126/168978885-a7bd2435-fba1-4eef-a769-c5494fa23d05.jpg)
 下面的 SQL 语句选择访问量高于平均访问量的 "site_id" 和 "count"：
 
-实例
+> 实例
 ```sql
 SELECT site_id, count FROM access_log
 WHERE count > (SELECT AVG(count) FROM access_log);
