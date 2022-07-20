@@ -1,4 +1,4 @@
-# SQL_教程 Markdowm
+# SQL_教程 Markdown
 ## DataBase SQL simple Grammar 
 
 > [SQL Intro](https://github.com/jambestwick/SQL_Grammar/blob/main/basic)
